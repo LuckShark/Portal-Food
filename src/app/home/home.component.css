@@ -1,0 +1,25 @@
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /*? Para não ficar tudo na mesma linha*/
+    list-style-type: none;
+    padding: 0; /* ! Por que já tem um padding */
+}
+
+ul li a {
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #e72929;
+}
+
+li a:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}

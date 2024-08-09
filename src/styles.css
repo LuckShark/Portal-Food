@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+html{
+  font-size: 16px; /* ! Já é o tamanho oficial, mas vamos deixar assim, ajuda a calcular o 'rem'*/
+  /* ! o rem é sempre o tamanho da fonte do root element x ele / 10rem = 10 x 16 = 160*/
+}
+
 body {
   margin: 0;
   font-family: "Quicksand", sans-serif;
