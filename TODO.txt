@@ -1,0 +1,10 @@
+
+
+TODO:
+Adding food details to the food-cart-list.component.html
+- Name 
+- Favorite 
+- Stars
+- Origins 
+- Cook Time 
+- Price
