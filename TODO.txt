@@ -1,4 +1,4 @@
-
+(Part 5)
 
 TODO:
 Adding food details to the food-cart-list.component.html
@@ -8,3 +8,6 @@ Adding food details to the food-cart-list.component.html
 - Origins 
 - Cook Time 
 - Price
+
+
+(Part 6)
