@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Food } from 'src/app/shared/models/Food';
+import { Tag } from 'src/app/shared/models/Tag';
 
 @Injectable({
   providedIn: 'root'
@@ -7,6 +8,32 @@ import { Food } from 'src/app/shared/models/Food';
 export class FoodService {
 
   constructor() { }
+
+  getAllFoodsBySearchTerm(searchTerm:string) :Food[]{
+    return this.getAll().filter(food => 
+      food.name.toLowerCase().includes(searchTerm.toLowerCase()));
+  }
+
+  getAllTags():Tag[]{
+    //lets mock the data from backend
+    return [
+      { name: 'All', count: 14 },
+      { name: 'FastFood', count: 4 },
+      { name: 'Pizza', count: 2 },
+      { name: 'Lunch', count: 3 },
+      { name: 'SlowFood', count: 2 },
+      { name: 'Hamburger', count: 1 },
+      { name: 'Fry', count: 1 },
+      { name: 'Soup', count: 1 },
+    ];
+  }
+
+  getAllFoodsByTag(tag:string): Food[]{
+    // statement?doJob1:doJob2
+    return tag == "All" ? 
+    this.getAll() :
+    this.getAll().filter(food => food.tags?.includes(tag));
+  }
 
   getAll():Food[]{
     return [
