@@ -1,7 +1,8 @@
 div{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /*justify-content: center; 
+    foi removido aqui por causa do que fiz no tags.components.ts */
 }
 
 div a{
