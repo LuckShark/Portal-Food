@@ -1,28 +1,26 @@
-# FoodmineCourse
+# Restaurant Ordering System
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.19.
+This is a restaurant ordering system built using Angular (version 11.2.19). The project provides a user-friendly interface for displaying restaurant menu items as cards, allowing users to view more information about each item, and add items to their cart for ordering.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-If you are running locally, use: `npx ng serve`
+- **Product Cards**: Display restaurant menu items in a card format with images, names, and prices.
+- **Product Details**: Click on a card to view more details about the menu item, including description, ingredients, and more.
+- **Add to Cart**: Users can add items to their cart for ordering.
+- **Responsive Design**: TO DO.
+- **Cart Management**: View cart items, update quantities, and remove items from the cart.
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+These instructions will help you set up and run the project on your local machine for development and testing purposes.
 
-## Build
+### Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Node.js (v12.x or higher)
+- Angular CLI (v11.x)
 
-## Running unit tests
+### Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clone the repository
+2. Install dependencies: npm install
+3. Run the application: ng s
