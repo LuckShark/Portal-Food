@@ -24,3 +24,11 @@ These instructions will help you set up and run the project on your local machin
 1. Clone the repository
 2. Install dependencies: npm install
 3. Run the application: ng s
+
+   
+### Images
+
+<img src="src/assets/readmeImages/page1.png">
+<img src="src/assets/readmeImages/page2.png">
+<img src="src/assets/readmeImages/page3.png">
+<img src="src/assets/readmeImages/page4.png">
