@@ -13,12 +13,8 @@ export class CartPageComponent implements OnInit {
 
   cart!:Cart;
 
-  //DONT FORGET - REMOVE THE foodservice
-  constructor(private cartService: CartService, private foodservice:FoodService) { 
-    let foods = foodservice.getAll();
-    cartService.addToCart(foods[1]);
-    cartService.addToCart(foods[3]);
-    cartService.addToCart(foods[4]);
+
+  constructor(private cartService: CartService) { 
     this.setCart();
   }
 
